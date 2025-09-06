@@ -1,5 +1,5 @@
 import {collection, getDocs, onSnapshot, doc, deleteDoc } from "firebase/firestore";
-import { db } from "../repositories/firebase/config";
+import { db } from "../../repositories/firebase/config";
 import { useEffect, useState } from "react";
 
 export const CardProduct = () => {

@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react"
 import { useNavigate } from "react-router"
 import { signInWithEmailAndPassword } from "firebase/auth"
-import { auth } from "../../repositories/firebase/config"
+import { auth } from "../../../repositories/firebase/config"
 import { useAuth } from "../../contexts/AuthContext"
 
 const LoginComponent = () => {

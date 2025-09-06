@@ -1,6 +1,6 @@
 import { createContext, useContext, useState, useEffect } from "react"
 import { onAuthStateChanged } from "firebase/auth"
-import { auth } from "../repositories/firebase/config"
+import { auth } from "../../repositories/firebase/config"
 
 const AuthContext = createContext()
 

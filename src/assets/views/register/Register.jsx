@@ -4,7 +4,7 @@ import { useState } from "react";
 import * as yup from "yup";
 import { yupResolver } from "@hookform/resolvers/yup";
 import { createUserWithEmailAndPassword } from "firebase/auth";
-import { auth } from "../../repositories/firebase/config";
+import { auth } from "../../../repositories/firebase/config";
 
 export const Register = () => {
   const [registrationError, setRegistrationError] = useState("");
